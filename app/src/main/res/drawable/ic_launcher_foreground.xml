@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Gamepad Main Body Outer Glow/Border -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M 33,35 C 24,35 20,44 20,58 C 20,69 25,81 33,81 C 38,81 44,74 54,74 C 64,74 70,81 75,81 C 83,81 88,69 88,58 C 88,44 84,35 75,35 Z" />
+        
+        <!-- Gamepad Body Core -->
+        <path
+            android:fillColor="#1E293B"
+            android:pathData="M 34,37 C 26,37 22,45 22,58 C 22,67 26,79 34,79 C 38,79 43,72 54,72 C 65,72 70,79 74,79 C 82,79 86,67 86,58 C 86,45 82,37 74,37 Z" />
+
+        <!-- D-Pad (Left side) -->
+        <path
+            android:fillColor="#F1F5F9"
+            android:pathData="M 35,47 L 39,47 L 39,53 L 45,53 L 45,57 L 39,57 L 39,63 L 35,63 L 35,57 L 29,57 L 29,53 L 35,53 Z" />
+        
+        <!-- Center Select & Start buttons -->
+        <path
+            android:fillColor="#64748B"
+            android:pathData="M 48,60 L 51,60 L 50,62 L 47,62 Z M 55,60 L 58,60 L 57,62 L 54,62 Z" />
+
+        <!-- Action Buttons (Right side - Diamond layout: X, Y, A, B) -->
+        <!-- North / Y (Violet) -->
+        <path
+            android:fillColor="#A855F7"
+            android:pathData="M 73,48 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+        <!-- South / A (Emerald) -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M 73,62 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+        <!-- West / X (Cyan) -->
+        <path
+            android:fillColor="#06B6D4"
+            android:pathData="M 66,55 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+        <!-- East / B (Rose) -->
+        <path
+            android:fillColor="#F43F5E"
+            android:pathData="M 80,55 m -2.5,0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0" />
+
+        <!-- Top Shoulders L1 / R1 indicators -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M 30,33 C 32,31 38,31 43,32 L 42,34 C 38,33 33,33 31,34 Z" />
+        <path
+            android:fillColor="#C084FC"
+            android:pathData="M 78,33 C 76,31 70,31 65,32 L 66,34 C 70,33 75,33 77,34 Z" />
+
+        <!-- Center Status LED -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M 54,48 m -1.5,0 a 1.5,1.5 0 1,0 3,0 a 1.5,1.5 0 1,0 -3,0" />
+    </group>
+</vector>

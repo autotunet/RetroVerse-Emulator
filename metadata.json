@@ -1,0 +1,6 @@
+{
+  "name": "RetroForge",
+  "description": "Emulador multiconsola para Android con soporte para múltiples formatos de juegos y mandos Bluetooth externos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
